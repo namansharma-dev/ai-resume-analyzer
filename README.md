@@ -1,16 +1,58 @@
-# React + Vite
+# AI Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Resume Analyzer is a React-based web application that evaluates resumes using ATS-style scoring.
 
-Currently, two official plugins are available:
+The tool analyzes resumes to detect skills, missing keywords, and provides suggestions to improve resume quality based on job descriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+https://ai-resume-analyzer-two-liart.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Upload and preview resume
+- ATS score calculation
+- Skill detection
+- Missing skills analysis
+- Keyword analyzer
+- Resume improvement suggestions
+- Job description matching
+
+---
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+
+Deployment:
+- Vercel
+
+---
+
+## How It Works
+
+1. Upload your resume
+2. Paste job description
+3. Click "Analyze Resume"
+4. The system calculates ATS score and suggests improvements.
+
+---
+
+## Future Improvements
+
+- Real PDF text extraction
+- AI powered resume suggestions
+- Resume keyword highlighting
+- Download analysis report
+
+---
+
+## Author
+
+Naman Sharma  
+Computer Science (AI)
