@@ -4,6 +4,12 @@ AI Resume Analyzer is a React-based web application that evaluates resumes using
 
 The tool analyzes resumes to detect skills, missing keywords, and provides suggestions to improve resume quality based on job descriptions.
 
+## Preview
+
+![AI Resume Analyzer](Screenshot%202026-03-13%20195947.png)
+
+![ATS Analysis](Screenshot%202026-03-13%20200033.png)
+
 ## Live Demo
 
 https://ai-resume-analyzer-two-liart.vercel.app
